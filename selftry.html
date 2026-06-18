@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildLife Zoo</title>
+
+</head>
+
+<body>
+    <h1 id="zoo-title" style="font-size:70px ;font-weight:bold;">🦁 WildLife Zoo!</h1>
+    <p style="font-size:35px">Welcome to WildLife Zoo. Explore amazing animals from around the world.</p>
+    <hr style="border: 0.1cap solid;">
+    <h1 style="font-size:50px ;font-weight:bold;">Navigation</h1>
+    <ul style="font-size:30px">
+        <li><a href="#animal-categories">Animals</a></li>
+        <li><a href="#ticket-booking">Book Tickets</a></li>
+        <li><a href="#zoo-documentary">Media</a></li>
+    </ul>
+    <hr style="border: 0.1cap solid;">
+    <h1 style="font-size:50px ;font-weight:bold;">Zoo Entrance</h1>
+    <a href="https://en.wikipedia.org/wiki/Tiger"><img src="tiger.png" alt="Zoo Entrance" style="width:1000px"></a>
+    <hr style="border: 0.1cap solid;">
+    <h1 id="animal-categories" style="font-size:50px ;font-weight:bold;">Animal Categories</h1>
+    <h1 style="font-size:30px ;font-weight:bold;">Mammals</h1>
+    <ul style="font-size: 30px;">
+        <li>Lion</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+    </ul>
+    <h1 style="font-size:30px ;font-weight:bold;">Birds</h1>
+    <ol style="font-size: 30px;">
+        <li>Peacock</li>
+        <li>Parrot</li>
+        <li>Eagle</li>
+    </ol>
+    <hr style="border: 0.1cap solid;">
+    <h1 style="font-size:50px ;font-weight:bold;">Animal Information</h1>
+    <table border="4" style="font-size: 30px; width: 50%; ">
+        <thead>
+            <tr>
+                <th>Animal</th>
+                <th>Category</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lion</td>
+                <td>Mammal</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Tiger</td>
+                <td>Mammal</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Elephant</td>
+                <td>Mammal</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="border: 0.1cap solid;">
+    <h1 id="ticket-booking" style="font-size:50px ;font-weight:bold;">Ticket Booking Form</h1>
+    <form method="post" autocomplete="on" style="font-size: 30px;">
+        <div style="margin-bottom:20px;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autocomplete="name"
+                style="width:300px;height:40px;border:1px solid rgb(13, 0, 255);font-size:18px;border-radius: 8px;padding-left: 10px;"
+                placeholder="Enter your name">
+        </div>
+
+        <div style="margin-bottom:20px;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email"
+                style="width:300px;height:40px;border:1px solid rgb(13, 0, 255);font-size:18px;border-radius: 8px;padding-left: 10px;"
+                placeholder="Enter your email">
+        </div>
+
+        <div style="margin-bottom:20px;">
+            <label for="count">Number of Candidates:</label>
+            <input type="number" id="count" name="count" autocomplete="off"
+                style="width:300px;height:40px;border:1px solid rgb(13, 0, 255);font-size:18px;border-radius: 8px;padding-left: 10px;"
+                placeholder="Number of Candidates">
+        </div>
+        <div style="margin-bottom:20px;">
+            <label for="message">Special Request:</label>
+            <br>
+            <textarea id="message" rows="5" cols="40"
+                style="border:3px solid rgb(13, 0, 255); border-radius:10px; font-size:18px;">
+            </textarea>
+        </div>
+
+        <button type="submit" style="height:45px; width:150px; font-size:20px; border-radius:10px;">
+            Book Now
+        </button>
+    </form>
+
+    <hr style="border: 0.1cap solid;">
+    <h1 id="zoo-documentary" style="font-size:50px ;font-weight:bold;">Zoo Documentry</h1>
+    <video width="600" controls poster="tiger.png" preload="auto">
+        <source src="babu.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <hr style="border: 0.1cap solid;">
+    <h1 style="font-size:50px ;font-weight:bold;">lion roar</h1>
+    <audio controls style="width:600px;height: 60px;">
+        <source src="coco.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr style="border: 0.1cap solid;">
+    <h1 style="font-size:50px ;font-weight:bold;">Zoo Rules</h1>
+    <ul style="font-size: 30px;">
+        <li>Do not feed the animals.</li>
+        <li>Keep a safe distance from the animals.</li>
+        <li>Do not litter in the zoo.</li>
+        <li>Follow the instructions of the zoo staff.</li>
+    </ul>
+    <a href="#zoo-title" style="text-decoration:none; color:rgb(255, 0, 0); font-size:20px;">Visit our website for more
+        information</a>
+    <hr style="border: 0.1cap solid;">
+    <footer style="text-align: center; margin-top: 20px; font-size: 20px;">
+        &copy; 2024 WildLife Zoo. All rights reserved.
+    </footer>
+</body>
+
+</html>
